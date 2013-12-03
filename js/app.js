@@ -17,3 +17,10 @@ $(function() {
     }
   });
 });
+
+// Make logo clickable
+$(function () {
+  $('.top-bar .name h1').click(function () {
+    window.location.href = '/';
+  });
+});

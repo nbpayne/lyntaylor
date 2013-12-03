@@ -14,3 +14,16 @@
   min-height: 625px; 
   background-size: cover;
 }
+
+.top-bar .name h1 {
+	background-image: url(../img/logo-h.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 216px;
+	height: 45px;
+	cursor: pointer;
+}
+
+.top-bar .name h1 span {
+	display: none;
+}

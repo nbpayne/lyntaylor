@@ -1,0 +1,340 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"c",
+				"customers-location-time"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"re",
+				"req"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/npayne/foundation/ltp-new/index.html",
+		"/Users/npayne/foundation/ltp-new/.gitignore",
+		"/Users/npayne/foundation/ltp-new/.bowerrc",
+		"/Users/npayne/foundation/test/README.md",
+		"/Users/npayne/foundation/ltp-new/README.md",
+		"/Users/npayne/foundation/test/index.html",
+		"/Users/npayne/foundation/test/scss/app.scss",
+		"/Users/npayne/foundation/test/scss/_settings.scss",
+		"/Users/npayne/foundation/test/js/app.js",
+		"/Users/npayne/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/npayne/foundation/test/bower_components/foundation/scss/foundation/components/_panels.scss",
+		"/Users/npayne/foundation/test/stylesheets/app.css",
+		"/Users/npayne/pow/myapp/public/angular.html",
+		"/Users/npayne/Downloads/foundation-5.0.2/index copy.html",
+		"/Users/npayne/node_apps/safety-console/controllers/policies.js",
+		"/Users/npayne/node_apps/safety-console/public/index.html",
+		"/Users/npayne/node_apps/safety-console/public/customers-location-time.txt",
+		"/Users/npayne/node_apps/safety-console/public/safetyconsole-module.js",
+		"/Users/npayne/node_apps/safety-console/public/policy-controller.js",
+		"/Users/npayne/node_apps/safety-console/public/module.js",
+		"/Users/npayne/node_apps/safety-console/index.js",
+		"/Users/npayne/node_apps/safety-console/public/filter.js",
+		"/Users/npayne/node_apps/safety-console/public/test.html",
+		"/Users/npayne/node_apps/safety-console/public/js/policy-controller.js",
+		"/Users/npayne/node_apps/partial-test/public/<html>",
+		"/Users/npayne/node_apps/partial-test/controllers/default.js",
+		"/Users/npayne/node_apps/partial-test/partial-test.sublime-project",
+		"/Users/npayne/node_apps/partial-test/index.js",
+		"/Users/npayne/node_apps/partial-test/views/homepage.html",
+		"/Users/npayne/node_apps/partial-test/views/detail.html",
+		"/Users/npayne/node_apps/partial-test/templates/blogs.html",
+		"/Users/npayne/node_apps/partial-test/definitions/database.js",
+		"/Users/npayne/node_apps/partial-test/views/_layout.html",
+		"/Users/npayne/node_apps/partial-test/templates/blog.html",
+		"/Users/npayne/node_apps/partial-test/templates/sitemap.html",
+		"/Users/npayne/node_apps/partial-test/definitions/definitions.js",
+		"/Users/npayne/pow/bootstrap/public/index.html",
+		"/Users/npayne/pow/bootstrap/public/js/bootstrap.js",
+		"/Users/npayne/pow/bootstrap/index.html",
+		"/Users/npayne/node_apps/hello_world.js",
+		"/Users/npayne/node_modules/calipso/README.md",
+		"/Users/npayne/node_apps/chat.js",
+		"/Users/npayne/Documents/NodeJS/hello_world.js",
+		"/Users/npayne/pow/myapp/public/chat.html",
+		"/Users/npayne/Documents/NodeJS/chat.js",
+		"/Volumes/WNG/Programme Management/JIRA/TEAM Golf.sql",
+		"/Users/npayne/pow/myapp/public/index.html",
+		"/Volumes/WNG/Programme Management/JIRA/Team PMO.sql",
+		"/Volumes/WNG/Programme Management/JIRA/TEAM MIS.sql",
+		"/Users/npayne/Documents/OLD COMPUTER/Jira Queries.sql"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1920x1080",
+			"melody-pool",
+			"Melody Pool",
+			"panel-bg",
+			"panel",
+			"\n$",
+			"panel-bg",
+			"panel",
+			"    ",
+			"name=\"optionsRadios\" value=\".*\" ng",
+			"\\{\\{",
+			"\\{\\{(.)",
+			"isNull",
+			"\" SecondTravellerSurname\"",
+			"[0-9] [0-9]",
+			"id=\"optionsRadios[0-9]\" ",
+			"class=\"radio\"",
+			"AUS",
+			"\\t",
+			"\\{\\{",
+			"<td>",
+			"</th>",
+			"<t[h||d]>",
+			"</th><th>",
+			"\\n",
+			"\".*",
+			"\\n\"",
+			"    ",
+			"link:",
+			"img",
+			"pull-right",
+			"right",
+			"float",
+			"	",
+			"FROM",
+			"\\n  [0-9]\\. [a-z]*: ",
+			"\\n",
+			"\\ \\ ",
+			"[0-9]. [a-z]*: ",
+			"\\n",
+			"Team [a-z] – ",
+			" \\(",
+			"\\)",
+			" \\(",
+			"h1.",
+			"deleted",
+			".",
+			"	",
+			"[a-z]\\.\\t",
+			"\\t",
+			"[a-z]\\.",
+			" <[a-z,\\@,\\.]*>; ",
+			"  \\* ",
+			"	",
+			"	 ",
+			"·         ",
+			" <.*>",
+			"; ",
+			" \\* ",
+			"-",
+			" –",
+			" – ",
+			" \\(.*\\)",
+			"- *",
+			" *\\* ",
+			"·         ",
+			" [0-9]. "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"1920x880",
+			"karl-broadie",
+			"Karl Broadie",
+			"  ",
+			"ng",
+			"\\{\\{ ",
+			"\\{\\{ (0)",
+			"isnull",
+			"\"SecondTravellerSurname\"",
+			"{0}T{1}",
+			"",
+			"class=\"radio-inline\"",
+			"NZL",
+			"    ",
+			"\\{\\{policy.",
+			"<th>",
+			"}}</td>",
+			"<td>{{",
+			"</th>\n            <td>",
+			"</th>\n            ",
+			"</th><th>",
+			"\\n",
+			"",
+			"slug:",
+			"\\n",
+			"; ",
+			"",
+			"; ",
+			"",
+			"\\t",
+			"",
+			"\\n",
+			"##",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			" - ",
+			"",
+			"\\n",
+			"/n",
+			"",
+			"\\n",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "ltp-new.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

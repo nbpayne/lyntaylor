@@ -1,0 +1,16 @@
+@import "settings";
+@import "foundation";
+
+.dark-panel {
+  @include panel(
+    // Sets the panel background color. Default: $panel-pg
+    $bg:black
+  );
+  opacity: 0.5;
+  min-height: 560px;
+}
+
+.background-tile {
+  min-height: 625px; 
+  background-size: cover;
+}

@@ -13,8 +13,8 @@ $(function() {
           scrollTop: target.offset().top - 45
         }, 1000);
         return false;
-      }
-    }
+      };
+    };
   });
 });
 

@@ -37,16 +37,18 @@
               <li><a href="#">Contact Us</a></li>
             </ul>
           </section>
-
       </nav>
     </div>
+    <!--
+    <p><img data-interchange="[http://foundation.zurb.com/docs/assets/img/examples/space-small.jpg, (small)], [http://foundation.zurb.com/docs/assets/img/examples/space-medium.jpg, (medium)], [http://foundation.zurb.com/docs/assets/img/examples/space-large.jpg, (large)], [http://foundation.zurb.com/docs/assets/img/examples/space-large.jpg, (only screen)]"></p>
+    <noscript><img src="http://foundation.zurb.com/docs/assets/img/examples/space-default.jpg"></noscript>
+    -->
 
     <!-- Lachlan Bryan -->
-    <!--<div style="background-image: url(img/lachlan-bryan.jpg);" class="background-tile">-->
-    <div style="position: relative;">
-      <img src="img/lachlan-bryan.jpg" style="position: absolute;height: 625px;top: 50%;   left: 50%;   margin-top: -313px;   margin-left: -640px;">
-        <div class="row">
-        <a name="lachlan-bryan"></a>
+    <div class="feature-item">
+      <a name="lachlan-bryan"></a>
+      <img data-interchange="[http://placehold.it/1600x600/c00, (default)], [http://placeholder.it/1024x768/0c0, (medium)], http://placehold.it/640x480/00c, (small)]">
+      <div class="row">
         <div class="large-4 columns">
           <div class="dark-panel">
             <h2>Lachlan Bryan <small>Black Coffee</small></h2>
@@ -56,15 +58,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-2 large-centered columns">
-          <p><a href="#katie-brianna">Next</a></p>
+        <div class="large-12 columns">
+          <p class="text-center"><a href="#katie-brianna">Next</a></p>
         </div>
       </div>
     </div>
 
     <!-- Katie Brianna -->
-    <div style="background-image: url(img/katie-brianna.jpg);" class="background-tile">
+    <div class="feature-item">
       <a name="katie-brianna"></a>
+      <img data-interchange="[http://placehold.it/1600x600/0c0, (default)], [http://placeholder.it/1024x768/00c, (medium)], http://placehold.it/640x480/c00, (small)]">
       <div class="row">
         <div class="large-4 large-offset-8 columns">
           <div class="dark-panel">
@@ -75,16 +78,17 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-2 large-centered columns">
-          <p><a href="#karl-broadie">Next</a></p>
+        <div class="large-12 columns">
+          <p class="text-center"><a href="#karl-broadie">Next</a></p>
         </div>
       </div>
     </div>
 
     <!-- Karl Broadie -->
-    <div style="background-image: url(img/karl-broadie.jpg);" class="background-tile">
+    <div class="feature-item">
+      <a name="karl-broadie"></a>
+      <img data-interchange="[http://placehold.it/1600x600/00c, (default)], [http://placeholder.it/1024x768/c00, (medium)], http://placehold.it/640x480/0c0, (small)]">
       <div class="row">
-        <a name="karl-broadie"></a>
         <div class="large-4 columns">
           <div class="dark-panel">
             <h2>Karl Broadie <small>Scottish Whisky</small></h2>
@@ -94,15 +98,17 @@
         </div>
       </div>
       <div class="row">
-        <div class="large-2 large-centered columns">
-          <p><a href="#lachlan-bryan">Top</a></p>
+        <div class="large-12 columns">
+          <p class="text-center"><a href="#lachlan-bryan">Top</a></p>
         </div>
       </div>
     </div>
-
+    
     <!-- Javascript -->
     <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <!--<script src="bower_components/foundation/js/foundation.min.js"></script>-->
+    <script src="bower_components/foundation/js/foundation.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
     <script src="js/app.js"></script>
     <!-- Remove before deploying -->
     <script src="http://localhost:35729/livereload.js"></script>

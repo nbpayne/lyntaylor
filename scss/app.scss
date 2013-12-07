@@ -16,6 +16,13 @@
   display: none;
 }
 
+.top-bar-section .dropdown li a {
+  padding: 10px 15px;
+}
+
+.top-bar-section .dropdown li:last-of-type a {
+  padding-bottom: 18px;
+}
 
 /* Items */
 div.item {

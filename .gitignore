@@ -2,3 +2,5 @@
 *.DS_Store
 /stylesheets/*
 compass_app_log.txt
+*.sublime-project
+*.sublime-workspace

@@ -65,6 +65,14 @@ div.feature-item img:first-of-type {
   }
 }
 
+/* Medium screens */
+@media only screen and (min-width: 40.063em) {
+  div.feature-item img:first-of-type {
+    position: relative;
+    margin-left: -512px;
+  }
+}
+
 /* Large screens */
 @media only screen and (min-width: 64.063em) {
   div.feature-item img:first-of-type {

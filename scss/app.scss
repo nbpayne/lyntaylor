@@ -36,13 +36,13 @@ div.item {
 /* Feature Item */
 div.feature-item {
   position: relative;
-  height: 600px;
+  min-height: 600px;
   max-width: 1600px;
   overflow-x: hidden;
+  background-color: #000;
 }
 
 div.feature-item img:first-of-type {
-  position: absolute;
   height: 600px;
   max-width: none;
   left: 50%;
@@ -50,12 +50,31 @@ div.feature-item img:first-of-type {
   display: block;
 }
 
-.dark-panel {
+.feature-blurb {
   @include panel(
     // Sets the panel background color. Default: $panel-pg
     $bg: black
   );
   opacity: 0.8;
+  margin-top: 20px;
+}
+
+/* Small screens */
+@media only screen {
+  div.feature-item img:first-of-type {
+    position: relative;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 64.063em) {
+  div.feature-item img:first-of-type {
+    position: absolute;
+  }
+
+  .feature-blurb {
+    margin-top: 0;
+  }
 }
 
 /* Video Item */
@@ -70,4 +89,8 @@ div.video-item .flex-video {
 /* Footer */
 footer div.row {
   border-top: 1px dashed #ccc;
+}
+
+div.feature-item+footer div.row {
+  border-top: none;
 }

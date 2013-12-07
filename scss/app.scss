@@ -4,12 +4,15 @@
 /* Navigation */
 .top-bar .name h1 {
   background-image: url(../img/logo-h.png);
-  background-position: center center;
+  background-position: left 11px;
   background-repeat: no-repeat;
-  width: 216px;
   height: 45px;
   margin-left: 10px;
   cursor: pointer;
+}
+
+.top-bar .name h1 a {
+  padding-left: 95px;
 }
 
 .top-bar .name h1 span {

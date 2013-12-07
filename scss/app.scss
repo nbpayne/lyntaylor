@@ -72,6 +72,12 @@ div.feature-item img:first-of-type {
     margin-left: -800px;
   }
 
+  div.next {
+    position: absolute;
+    bottom: 0;
+    max-width: none;
+  }
+
   .feature-blurb {
     margin-top: 0;
   }

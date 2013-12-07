@@ -7,12 +7,22 @@
     $bg: black
   );
   opacity: 0.8;
-  min-height: 560px;
 }
 
-.background-tile {
-  min-height: 625px; 
-  background-size: cover;
+div.feature-item {
+  position: relative;
+  height: 600px;
+  max-width: 1600px;
+  overflow-x: hidden;
+}
+
+div.feature-item img:first-of-type {
+  position: absolute;
+  height: 600px;
+  max-width: none;
+  left: 50%;
+  margin-left: -800px;
+  display: block;
 }
 
 .top-bar .name h1 {
@@ -21,6 +31,7 @@
 	background-repeat: no-repeat;
 	width: 216px;
 	height: 45px;
+  margin-left: 10px;
 	cursor: pointer;
 }
 

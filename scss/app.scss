@@ -43,10 +43,8 @@ div.feature-item {
 }
 
 div.feature-item img:first-of-type {
-  height: 600px;
   max-width: none;
   left: 50%;
-  margin-left: -800px;
   display: block;
 }
 
@@ -63,6 +61,7 @@ div.feature-item img:first-of-type {
 @media only screen {
   div.feature-item img:first-of-type {
     position: relative;
+    margin-left: -320px;
   }
 }
 
@@ -70,6 +69,7 @@ div.feature-item img:first-of-type {
 @media only screen and (min-width: 64.063em) {
   div.feature-item img:first-of-type {
     position: absolute;
+    margin-left: -800px;
   }
 
   .feature-blurb {

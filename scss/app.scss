@@ -1,14 +1,28 @@
 @import "settings";
 @import "foundation";
 
-.dark-panel {
-  @include panel(
-    // Sets the panel background color. Default: $panel-pg
-    $bg: black
-  );
-  opacity: 0.8;
+/* Navigation */
+.top-bar .name h1 {
+  background-image: url(../img/logo-h.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 216px;
+  height: 45px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
+.top-bar .name h1 span {
+  display: none;
+}
+
+
+/* Items */
+div.item {
+  margin-bottom: 2em;
+}
+
+/* Feature Item */
 div.feature-item {
   position: relative;
   height: 600px;
@@ -25,16 +39,24 @@ div.feature-item img:first-of-type {
   display: block;
 }
 
-.top-bar .name h1 {
-	background-image: url(../img/logo-h.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	width: 216px;
-	height: 45px;
-  margin-left: 10px;
-	cursor: pointer;
+.dark-panel {
+  @include panel(
+    // Sets the panel background color. Default: $panel-pg
+    $bg: black
+  );
+  opacity: 0.8;
 }
 
-.top-bar .name h1 span {
-	display: none;
+/* Video Item */
+div.video-item {
+  background-color: #000;
+}
+
+div.video-item .flex-video {
+  margin-bottom: 0;
+}
+
+/* Footer */
+footer div.row {
+  border-top: 1px dashed #ccc;
 }

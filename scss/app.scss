@@ -108,3 +108,33 @@ footer div.row {
 div.feature-item+footer div.row {
   border-top: none;
 }
+
+/* Next & Top icons */
+.next-icon,
+.top-icon {
+  display: inline-block;
+  background-size: 100%;
+  width: 64px;
+  height: 64px;
+}
+
+.next-icon span,
+.top-icon span {
+  display: none;
+}
+
+.no-svg .next-icon {
+  background: url("../icons/next.png");
+}
+
+.svg .next-icon {
+  background: url("../icons/next.svg");
+}
+
+.no-svg .top-icon {
+  background: url("../icons/top.png");
+}
+
+.svg .top-icon {
+  background: url("../icons/top.svg");
+}

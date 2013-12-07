@@ -55,7 +55,7 @@ $webicons-icons:
 
 
 // Specify the path to the webicons directory here. Include trailing slash.
-$webicons-url: "../webicons/" !default;
+$webicons-url: "../icons/webicons/" !default;
 
 @each $webicons-icon in $webicons-icons {
   .no-svg .webicon.#{$webicons-icon} { 

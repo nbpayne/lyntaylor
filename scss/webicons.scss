@@ -1,7 +1,11 @@
 /* Webicons by Adam Fairhead at Fairhead Creative http://fairheadcreative.com */
 
 .webicon { 
-  display: inline-block; 
+  display: inline-block;
+  /* IE fix */
+  zoom: 1;
+  *display: inline;
+  /* /IE Fix */
   background-repeat: no-repeat;
   background-position: left center;
   min-width: 30px; 

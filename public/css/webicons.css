@@ -1,7 +1,10 @@
 /* Webicons by Adam Fairhead at Fairhead Creative http://fairheadcreative.com */
-/* line 3, ../../scss/webicons.scss */
 .webicon {
   display: inline-block;
+  /* IE fix */
+  zoom: 1;
+  *display: inline;
+  /* /IE Fix */
   background-repeat: no-repeat;
   background-position: left center;
   min-width: 30px;
@@ -13,7 +16,6 @@
   margin-bottom: 5px;
 }
 
-/* line 16, ../../scss/webicons.scss */
 .webicon.small {
   min-width: 20px;
   height: 20px;
@@ -24,7 +26,6 @@
   border-radius: 3px;
 }
 
-/* line 25, ../../scss/webicons.scss */
 .webicon.large {
   min-width: 48px;
   height: 48px;
@@ -35,162 +36,130 @@
   border-radius: 6px;
 }
 
-/* line 53, ../../scss/webicons.scss */
 .no-svg .webicon.facebook {
   background-image: url("../icons/webicons/webicon-facebook-m.png");
 }
 
-/* line 56, ../../scss/webicons.scss */
 .no-svg .webicon.facebook.large {
   background-image: url("../icons/webicons/webicon-facebook.png");
 }
 
-/* line 59, ../../scss/webicons.scss */
 .no-svg .webicon.facebook.small {
   background-image: url("../icons/webicons/webicon-facebook-s.png");
 }
 
-/* line 62, ../../scss/webicons.scss */
 .svg .webicon.facebook {
   background-image: url("../icons/webicons/webicon-facebook.svg");
 }
 
-/* line 53, ../../scss/webicons.scss */
 .no-svg .webicon.googleplus {
   background-image: url("../icons/webicons/webicon-googleplus-m.png");
 }
 
-/* line 56, ../../scss/webicons.scss */
 .no-svg .webicon.googleplus.large {
   background-image: url("../icons/webicons/webicon-googleplus.png");
 }
 
-/* line 59, ../../scss/webicons.scss */
 .no-svg .webicon.googleplus.small {
   background-image: url("../icons/webicons/webicon-googleplus-s.png");
 }
 
-/* line 62, ../../scss/webicons.scss */
 .svg .webicon.googleplus {
   background-image: url("../icons/webicons/webicon-googleplus.svg");
 }
 
-/* line 53, ../../scss/webicons.scss */
 .no-svg .webicon.instagram {
   background-image: url("../icons/webicons/webicon-instagram-m.png");
 }
 
-/* line 56, ../../scss/webicons.scss */
 .no-svg .webicon.instagram.large {
   background-image: url("../icons/webicons/webicon-instagram.png");
 }
 
-/* line 59, ../../scss/webicons.scss */
 .no-svg .webicon.instagram.small {
   background-image: url("../icons/webicons/webicon-instagram-s.png");
 }
 
-/* line 62, ../../scss/webicons.scss */
 .svg .webicon.instagram {
   background-image: url("../icons/webicons/webicon-instagram.svg");
 }
 
-/* line 53, ../../scss/webicons.scss */
 .no-svg .webicon.linkedin {
   background-image: url("../icons/webicons/webicon-linkedin-m.png");
 }
 
-/* line 56, ../../scss/webicons.scss */
 .no-svg .webicon.linkedin.large {
   background-image: url("../icons/webicons/webicon-linkedin.png");
 }
 
-/* line 59, ../../scss/webicons.scss */
 .no-svg .webicon.linkedin.small {
   background-image: url("../icons/webicons/webicon-linkedin-s.png");
 }
 
-/* line 62, ../../scss/webicons.scss */
 .svg .webicon.linkedin {
   background-image: url("../icons/webicons/webicon-linkedin.svg");
 }
 
-/* line 53, ../../scss/webicons.scss */
 .no-svg .webicon.mail {
   background-image: url("../icons/webicons/webicon-mail-m.png");
 }
 
-/* line 56, ../../scss/webicons.scss */
 .no-svg .webicon.mail.large {
   background-image: url("../icons/webicons/webicon-mail.png");
 }
 
-/* line 59, ../../scss/webicons.scss */
 .no-svg .webicon.mail.small {
   background-image: url("../icons/webicons/webicon-mail-s.png");
 }
 
-/* line 62, ../../scss/webicons.scss */
 .svg .webicon.mail {
   background-image: url("../icons/webicons/webicon-mail.svg");
 }
 
-/* line 53, ../../scss/webicons.scss */
 .no-svg .webicon.twitter {
   background-image: url("../icons/webicons/webicon-twitter-m.png");
 }
 
-/* line 56, ../../scss/webicons.scss */
 .no-svg .webicon.twitter.large {
   background-image: url("../icons/webicons/webicon-twitter.png");
 }
 
-/* line 59, ../../scss/webicons.scss */
 .no-svg .webicon.twitter.small {
   background-image: url("../icons/webicons/webicon-twitter-s.png");
 }
 
-/* line 62, ../../scss/webicons.scss */
 .svg .webicon.twitter {
   background-image: url("../icons/webicons/webicon-twitter.svg");
 }
 
-/* line 53, ../../scss/webicons.scss */
 .no-svg .webicon.vimeo {
   background-image: url("../icons/webicons/webicon-vimeo-m.png");
 }
 
-/* line 56, ../../scss/webicons.scss */
 .no-svg .webicon.vimeo.large {
   background-image: url("../icons/webicons/webicon-vimeo.png");
 }
 
-/* line 59, ../../scss/webicons.scss */
 .no-svg .webicon.vimeo.small {
   background-image: url("../icons/webicons/webicon-vimeo-s.png");
 }
 
-/* line 62, ../../scss/webicons.scss */
 .svg .webicon.vimeo {
   background-image: url("../icons/webicons/webicon-vimeo.svg");
 }
 
-/* line 53, ../../scss/webicons.scss */
 .no-svg .webicon.youtube {
   background-image: url("../icons/webicons/webicon-youtube-m.png");
 }
 
-/* line 56, ../../scss/webicons.scss */
 .no-svg .webicon.youtube.large {
   background-image: url("../icons/webicons/webicon-youtube.png");
 }
 
-/* line 59, ../../scss/webicons.scss */
 .no-svg .webicon.youtube.small {
   background-image: url("../icons/webicons/webicon-youtube-s.png");
 }
 
-/* line 62, ../../scss/webicons.scss */
 .svg .webicon.youtube {
   background-image: url("../icons/webicons/webicon-youtube.svg");
 }

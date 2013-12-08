@@ -110,31 +110,61 @@ div.feature-item+footer div.row {
 }
 
 /* Next & Top icons */
+.down-icon,
+.up-icon, 
 .next-icon,
-.top-icon {
+.previous-icon {
   display: inline-block;
-  background-size: 100%;
-  width: 64px;
+  background-repeat: no-repeat;
+  min-width: 64px;
   height: 64px;
+  line-height: 64px;
 }
 
+.down-icon span,
+.up-icon span, 
 .next-icon span,
-.top-icon span {
+.previous-icon span {
   display: none;
 }
 
+.no-svg .down-icon {
+  background-image: url("../icons/down.png");
+}
+
+.svg .down-icon {
+  background-image: url("../icons/down.svg");
+}
+
+.no-svg .up-icon {
+  background-image: url("../icons/up.png");
+}
+
+.svg .up-icon {
+  background-image: url("../icons/up.svg");
+}
+
+.next-icon {
+  padding-right: 64px;
+  background-position: right;
+}
+
 .no-svg .next-icon {
-  background: url("../icons/next.png");
+  background-image: url("../icons/next.png");
 }
 
 .svg .next-icon {
-  background: url("../icons/next.svg");
+  background-image: url("../icons/next.svg");
 }
 
-.no-svg .top-icon {
-  background: url("../icons/top.png");
+.previous-icon {
+  padding-left: 64px;
 }
 
-.svg .top-icon {
-  background: url("../icons/top.svg");
+.no-svg .previous-icon {
+  background-image: url("../icons/previous.png");
+}
+
+.svg .previous-icon {
+  background-image: url("../icons/previous.svg");
 }

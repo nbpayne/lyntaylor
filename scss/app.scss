@@ -1,4 +1,3 @@
-/* HELLO! */
 @import "settings";
 @import "foundation";
 
@@ -195,4 +194,24 @@ div.feature-item+footer div.row {
 
 .svg .previous-icon {
   background-image: url("../icons/previous.svg");
+}
+
+/* Icon */
+
+img.icon.small {
+  margin-right: 4px;
+  margin-bottom: 4px;
+  box-shadow: 2px 2px 2px #ccc;
+  -moz-border-radius: 3px; 
+  -webkit-border-radius: 3px; 
+  border-radius: 3px;
+}
+
+img.icon.large {
+  margin-right: 8px;
+  margin-bottom: 8px;
+  box-shadow: 4px 4px 4px #ccc;
+  -moz-border-radius: 6px; 
+  -webkit-border-radius: 6px; 
+  border-radius: 6px;
 }

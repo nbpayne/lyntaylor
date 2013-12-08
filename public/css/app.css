@@ -7719,32 +7719,45 @@ th.hide-for-touch {
 /* line 15, ../../scss/app.scss */
 .top-bar .name h1 a {
   padding-left: 95px;
-  width: 375px;
 }
 
-/* line 20, ../../scss/app.scss */
+/* Small screens */
+@media only screen {
+  /* line 22, ../../scss/app.scss */
+  .top-bar .name h1 a {
+    width: 91.6%;
+  }
+}
+/* Medium screens */
+@media only screen and (min-width: 40.063em) {
+  /* line 29, ../../scss/app.scss */
+  .top-bar .name h1 a {
+    width: auto;
+  }
+}
+/* line 34, ../../scss/app.scss */
 .top-bar .name h1 span {
   display: none;
 }
 
-/* line 24, ../../scss/app.scss */
+/* line 38, ../../scss/app.scss */
 .top-bar-section .dropdown li a {
   padding: 10px 15px;
 }
 
-/* line 28, ../../scss/app.scss */
+/* line 42, ../../scss/app.scss */
 .top-bar-section .dropdown li:last-of-type a {
   padding-bottom: 18px;
 }
 
 /* Items */
-/* line 33, ../../scss/app.scss */
+/* line 47, ../../scss/app.scss */
 div.item {
   margin-bottom: 2em;
 }
 
 /* Feature Item */
-/* line 38, ../../scss/app.scss */
+/* line 52, ../../scss/app.scss */
 div.feature-item {
   position: relative;
   max-width: 1600px;
@@ -7752,12 +7765,12 @@ div.feature-item {
   background-color: #000;
 }
 
-/* line 45, ../../scss/app.scss */
+/* line 59, ../../scss/app.scss */
 div.feature-item img:first-of-type {
   display: block;
 }
 
-/* line 49, ../../scss/app.scss */
+/* line 63, ../../scss/app.scss */
 .feature-blurb {
   border-style: solid;
   border-width: 1px;
@@ -7792,12 +7805,12 @@ div.feature-item img:first-of-type {
 
 /* Small screens */
 @media only screen {
-  /* line 60, ../../scss/app.scss */
+  /* line 74, ../../scss/app.scss */
   div.feature-item {
     min-height: none;
   }
 
-  /* line 64, ../../scss/app.scss */
+  /* line 78, ../../scss/app.scss */
   div.feature-item img:first-of-type {
     position: relative;
     max-width: 100%;
@@ -7805,12 +7818,12 @@ div.feature-item img:first-of-type {
 }
 /* Medium screens */
 @media only screen and (min-width: 40.063em) {
-  /* line 72, ../../scss/app.scss */
+  /* line 86, ../../scss/app.scss */
   div.feature-item {
     min-height: 600px;
   }
 
-  /* line 76, ../../scss/app.scss */
+  /* line 90, ../../scss/app.scss */
   div.feature-item img:first-of-type {
     position: relative;
     max-width: none;
@@ -7820,12 +7833,12 @@ div.feature-item img:first-of-type {
 }
 /* Large screens */
 @media only screen and (min-width: 64.063em) {
-  /* line 86, ../../scss/app.scss */
+  /* line 100, ../../scss/app.scss */
   div.feature-item {
     min-height: 600px;
   }
 
-  /* line 90, ../../scss/app.scss */
+  /* line 104, ../../scss/app.scss */
   div.feature-item img:first-of-type {
     position: absolute;
     max-width: none;
@@ -7833,42 +7846,42 @@ div.feature-item img:first-of-type {
     margin-left: -800px;
   }
 
-  /* line 97, ../../scss/app.scss */
+  /* line 111, ../../scss/app.scss */
   div.next {
     position: absolute;
     bottom: 0;
     max-width: none;
   }
 
-  /* line 103, ../../scss/app.scss */
+  /* line 117, ../../scss/app.scss */
   .feature-blurb {
     margin-top: 0;
   }
 }
 /* Video Item */
-/* line 109, ../../scss/app.scss */
+/* line 123, ../../scss/app.scss */
 div.video-item {
   background-color: #000;
 }
 
-/* line 113, ../../scss/app.scss */
+/* line 127, ../../scss/app.scss */
 div.video-item .flex-video {
   margin-bottom: 0;
 }
 
 /* Footer */
-/* line 118, ../../scss/app.scss */
+/* line 132, ../../scss/app.scss */
 footer div.row {
   border-top: 1px dashed #ccc;
 }
 
-/* line 122, ../../scss/app.scss */
+/* line 136, ../../scss/app.scss */
 div.feature-item + footer div.row {
   border-top: none;
 }
 
 /* Next & Top icons */
-/* line 130, ../../scss/app.scss */
+/* line 144, ../../scss/app.scss */
 .down-icon,
 .up-icon,
 .next-icon,
@@ -7880,7 +7893,7 @@ div.feature-item + footer div.row {
   line-height: 64px;
 }
 
-/* line 141, ../../scss/app.scss */
+/* line 155, ../../scss/app.scss */
 .down-icon span,
 .up-icon span,
 .next-icon span,
@@ -7888,53 +7901,53 @@ div.feature-item + footer div.row {
   display: none;
 }
 
-/* line 145, ../../scss/app.scss */
+/* line 159, ../../scss/app.scss */
 .no-svg .down-icon {
   background-image: url("../icons/down.png");
 }
 
-/* line 149, ../../scss/app.scss */
+/* line 163, ../../scss/app.scss */
 .svg .down-icon {
   background-image: url("../icons/down.svg");
 }
 
-/* line 153, ../../scss/app.scss */
+/* line 167, ../../scss/app.scss */
 .no-svg .up-icon {
   background-image: url("../icons/up.png");
 }
 
-/* line 157, ../../scss/app.scss */
+/* line 171, ../../scss/app.scss */
 .svg .up-icon {
   background-image: url("../icons/up.svg");
 }
 
-/* line 161, ../../scss/app.scss */
+/* line 175, ../../scss/app.scss */
 .next-icon {
   padding-right: 64px;
   background-position: right;
 }
 
-/* line 166, ../../scss/app.scss */
+/* line 180, ../../scss/app.scss */
 .no-svg .next-icon {
   background-image: url("../icons/next.png");
 }
 
-/* line 170, ../../scss/app.scss */
+/* line 184, ../../scss/app.scss */
 .svg .next-icon {
   background-image: url("../icons/next.svg");
 }
 
-/* line 174, ../../scss/app.scss */
+/* line 188, ../../scss/app.scss */
 .previous-icon {
   padding-left: 64px;
 }
 
-/* line 178, ../../scss/app.scss */
+/* line 192, ../../scss/app.scss */
 .no-svg .previous-icon {
   background-image: url("../icons/previous.png");
 }
 
-/* line 182, ../../scss/app.scss */
+/* line 196, ../../scss/app.scss */
 .svg .previous-icon {
   background-image: url("../icons/previous.svg");
 }

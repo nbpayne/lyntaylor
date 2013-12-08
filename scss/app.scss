@@ -14,7 +14,21 @@
 
 .top-bar .name h1 a {
   padding-left: 95px;
-  width: 375px;
+  //width: 91.6%;
+}
+
+/* Small screens */
+@media only screen {
+  .top-bar .name h1 a {
+    width: 91.6%;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) {
+.top-bar .name h1 a {
+    width: auto;
+  }
 }
 
 .top-bar .name h1 span {
@@ -86,7 +100,7 @@ div.feature-item img:first-of-type {
   div.feature-item {
     min-height: 600px;
   }
-  
+
   div.feature-item img:first-of-type {
     position: absolute;
     max-width: none;

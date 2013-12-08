@@ -37,15 +37,12 @@ div.item {
 /* Feature Item */
 div.feature-item {
   position: relative;
-  min-height: 600px;
   max-width: 1600px;
   overflow-x: hidden;
   background-color: #000;
 }
 
 div.feature-item img:first-of-type {
-  max-width: none;
-  left: 50%;
   display: block;
 }
 
@@ -60,24 +57,40 @@ div.feature-item img:first-of-type {
 
 /* Small screens */
 @media only screen {
+  div.feature-item {
+    min-height: none;
+  }
+
   div.feature-item img:first-of-type {
     position: relative;
-    margin-left: -320px;
+    max-width: 100%;
   }
 }
 
 /* Medium screens */
 @media only screen and (min-width: 40.063em) {
+  div.feature-item {
+    min-height: 600px;
+  }
+
   div.feature-item img:first-of-type {
     position: relative;
+    max-width: none;
+    left: 50%;
     margin-left: -512px;
   }
 }
 
 /* Large screens */
 @media only screen and (min-width: 64.063em) {
+  div.feature-item {
+    min-height: 600px;
+  }
+  
   div.feature-item img:first-of-type {
     position: absolute;
+    max-width: none;
+    left: 50%;
     margin-left: -800px;
   }
 

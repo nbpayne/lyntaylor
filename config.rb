@@ -23,5 +23,6 @@ javascripts_dir = "public/js"
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
-output_style = :expanded # by Compass.app 
+#output_style = :expanded # by Compass.app 
+output_style = :compressed
 line_comments = false # by Compass.app 

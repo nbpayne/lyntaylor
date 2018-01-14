@@ -1,0 +1,15 @@
+<!-- Content -->
+<div class="content-item item">
+  <div class="row">
+    <div class="medium-8 columns{% if include.pull %} medium-push-4{% endif %}">
+      <h2>{{ include.title }} <small>{{ include.subtitle }}</small></h2>
+      {{ include.content | markdownify }}
+    </div>
+    <div class="medium-4 columns{% if include.pull %} medium-pull-8{% endif %}">
+      <p>
+        <a target="_blank" href="http://instagram.com/p/{{ include.instagramid }}/"><img data-interchange="[http://instagram.com/p/{{ include.instagramid }}/media/?size=l, (small)], [http://instagram.com/p/{{ include.instagramid }}/media/?size=m, (medium)], [http://instagram.com/p/{{ include.instagramid }}/media/?size=m, (large)]"></a>
+      </p>
+      <p class="text-center"><a target="_blank" href="http://instgram.com/p/{{ include.instagramid }}/"><img class="icon small" src="icons/webicons/webicon-instagram-s.png"> instgram.com/p/{{ include.instagramid }}/</a></p>
+    </div>
+  </div>
+</div>

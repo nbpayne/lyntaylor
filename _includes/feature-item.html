@@ -1,0 +1,29 @@
+<!-- Feature Item -->
+<div class="feature-item{% if page.url != '/' %} item{% endif %}">
+  <a name="{{ include.title | downcase | replace: ' ', '-' }}"></a>
+  <img data-interchange="[/img/{{ include.title | downcase | replace: ' ', '-' }}.b.s.jpg, (small)], [/img/{{ include.title | downcase | replace: ' ', '-' }}.b.m.jpg, (medium)], [/img/{{ include.title | downcase | replace: ' ', '-' }}.b.l.jpg, (large)]">
+  <div class="row">
+    <div class="large-4 columns{% if include.align == 'right' %} large-offset-8{% endif %}">
+      <div class="feature-blurb">
+        <h2>{{ include.title }} <small>{{ include.subtitle }}</small></h2>
+        <p>{{ include.description }}</p>
+        {% if include.readmore %}
+        <p><a href="{{ include.title | downcase | replace: ' ', '-' }}">Read more...</a></p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% if include.next %}
+  <div class="row next">
+    <div class="small-12 columns">
+      <p class="text-center">
+        {% if include.next == "Top" %}
+        <a class="up-icon" href="#top"><span>Top</span></a>
+        {% else %}
+        <a class="down-icon" href="#{{ include.next | downcase | replace: ' ', '-' }}"><span>Next</span></a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+  {% endif %}
+</div>

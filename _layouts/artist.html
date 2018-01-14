@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% include feature-item.html 
+  title = page.title
+  subtitle = page.subtitle
+%}
+{{ content }}
+
+<!-- Pager -->
+<div class="row">
+  {% if page.prev %}
+  <div class="medium-6 columns">
+    <p><a class="previous-icon" href="{{ page.prev | downcase | replace: ' ', '-' }}">{{ page.prev }}</a></p>
+  </div>
+  {% endif %}
+  {% if page.next %}
+  <div class="medium-6 columns{% unless page.prev %} medium-offset-6{% endunless %}">
+    <p class="text-right"><a class="next-icon" href="{{ page.next | downcase | replace: ' ', '-' }}">{{ page.next }}</a></p>
+  </div>
+  {% endif %}
+</div>
